@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-07-13T19:45:42 IST" name="Suite" finished-at="2022-07-13T19:46:47 IST" duration-ms="64701">
+    <groups>
+    </groups>
+    <test started-at="2022-07-13T19:45:42 IST" name="Test" finished-at="2022-07-13T19:46:47 IST" duration-ms="64701">
+      <class name="scripts.Testcase3">
+        <test-method is-config="true" signature="openApp()[pri:0, instance:scripts.Testcase3@15aab8c6]" started-at="2022-07-13T19:45:42 IST" name="openApp" finished-at="2022-07-13T19:45:49 IST" duration-ms="6558" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApp -->
+        <test-method signature="tc3()[pri:0, instance:scripts.Testcase3@15aab8c6]" started-at="2022-07-13T19:45:49 IST" name="tc3" finished-at="2022-07-13T19:46:11 IST" duration-ms="22345" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc3 -->
+        <test-method is-config="true" signature="closeApp(org.testng.ITestResult)[pri:0, instance:scripts.Testcase3@15aab8c6]" started-at="2022-07-13T19:46:11 IST" name="closeApp" finished-at="2022-07-13T19:46:12 IST" duration-ms="333" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=tc3 status=SUCCESS method=Testcase3.tc3()[pri:0, instance:scripts.Testcase3@15aab8c6] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApp -->
+      </class> <!-- scripts.Testcase3 -->
+      <class name="scripts.Testcase2">
+        <test-method is-config="true" signature="openApp()[pri:0, instance:scripts.Testcase2@47987356]" started-at="2022-07-13T19:46:12 IST" name="openApp" finished-at="2022-07-13T19:46:16 IST" duration-ms="4494" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApp -->
+        <test-method signature="tc2()[pri:0, instance:scripts.Testcase2@47987356]" started-at="2022-07-13T19:46:16 IST" name="tc2" finished-at="2022-07-13T19:46:36 IST" duration-ms="20129" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc2 -->
+        <test-method is-config="true" signature="closeApp(org.testng.ITestResult)[pri:0, instance:scripts.Testcase2@47987356]" started-at="2022-07-13T19:46:36 IST" name="closeApp" finished-at="2022-07-13T19:46:37 IST" duration-ms="278" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=tc2 status=SUCCESS method=Testcase2.tc2()[pri:0, instance:scripts.Testcase2@47987356] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApp -->
+      </class> <!-- scripts.Testcase2 -->
+      <class name="scripts.Testcase1">
+        <test-method is-config="true" signature="openApp()[pri:0, instance:scripts.Testcase1@22ef9844]" started-at="2022-07-13T19:46:37 IST" name="openApp" finished-at="2022-07-13T19:46:41 IST" duration-ms="3904" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApp -->
+        <test-method signature="tc1()[pri:0, instance:scripts.Testcase1@22ef9844]" started-at="2022-07-13T19:46:41 IST" name="tc1" finished-at="2022-07-13T19:46:47 IST" duration-ms="6430" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc1 -->
+        <test-method is-config="true" signature="closeApp(org.testng.ITestResult)[pri:0, instance:scripts.Testcase1@22ef9844]" started-at="2022-07-13T19:46:47 IST" name="closeApp" finished-at="2022-07-13T19:46:47 IST" duration-ms="174" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=tc1 status=SUCCESS method=Testcase1.tc1()[pri:0, instance:scripts.Testcase1@22ef9844] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApp -->
+      </class> <!-- scripts.Testcase1 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
